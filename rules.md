@@ -34,13 +34,13 @@ When generate two>= level objects, wite it always in `useMemo`.
 ## multiplicity
 
 - if it is one thing to always use a single number
-  > __result, item, subject, object, event, image__
+  - __result, item, subject, object, event, image__
 - if it's a lot of objects in an array or hash, always use the plural with `s` postfix
-  > __results, items, subjects, objects, events, images__
+  - __results, items, subjects, objects, events, images__
 - if the name should reflect this information from the description, for example, if it `{ id }[]` then
-  > __resultIds, itemIds, subjectIds, objectIds, eventIds, imageIds__
-  > ~~resultsIds, itemsIds, subjectsIds, objectsIds, eventsIds, imagesIds~~
-  > ~~resultsId, itemsId, subjectsId, objectsId, eventsId, imagesId~~
+  - __resultIds, itemIds, subjectIds, objectIds, eventIds, imageIds__
+  - ~~resultsIds, itemsIds, subjectsIds, objectsIds, eventsIds, imagesIds~~
+  - ~~resultsId, itemsId, subjectsId, objectsId, eventsId, imagesId~~
 
 ## duplication
 
